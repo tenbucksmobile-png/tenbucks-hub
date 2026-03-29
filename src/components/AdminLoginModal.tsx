@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { X } from "lucide-react";
 
 const portals = [
@@ -6,24 +7,28 @@ const portals = [
     name: "Fizzog",
     description: "Job matching platform admin",
     url: "https://admin-fizzog.tenbucks-mobile.co.za",
+    logo: "/Fizzog.png",
     color: "bg-blue-600",
   },
   {
     name: "IndabaCares",
     description: "Employee wellness platform admin",
     url: "https://admin-indabacares.tenbucks-mobile.co.za",
+    logo: "/IndabaCares.png",
     color: "bg-emerald-600",
   },
   {
-    name: "App 3",
+    name: "MaisonClaudia",
     description: "Coming soon",
     url: "#",
+    logo: "/MaisonClaudia.png",
     color: "bg-purple-600",
   },
   {
-    name: "App 4",
+    name: "SpaSynergy",
     description: "Coming soon",
     url: "#",
+    logo: "/SpaSynergy.png",
     color: "bg-orange-600",
   },
 ];
@@ -60,10 +65,8 @@ export default function AdminLoginModal({
                   : "hover:bg-white/10 cursor-pointer"
               }`}
             >
-              <div
-                className={`w-10 h-10 rounded-lg ${p.color} flex items-center justify-center font-bold text-sm`}
-              >
-                {p.name[0]}
+              <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center">
+                <Image src={p.logo} alt={p.name} width={40} height={40} className="object-contain p-1 w-full h-full" />
               </div>
               <div>
                 <p className="font-medium">{p.name}</p>
