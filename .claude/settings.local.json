@@ -14,7 +14,8 @@
       "Bash(cmd.exe /c \"copy C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\public\\\\Fizzog.png C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\\\\Fizzog.png\" 2>&1)",
       "Bash(cmd.exe /c \"mkdir C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public && copy C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\public\\\\Fizzog.png C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\\\\Fizzog.png\")",
       "Bash(cmd.exe /c \"dir C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\")",
-      "Bash(powershell -Command \"New-Item -ItemType Directory -Force -Path 'C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public' | Out-Null; Copy-Item 'C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\public\\\\Fizzog.png' 'C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\\\\Fizzog.png' -Force; Write-Output 'Done'\")"
+      "Bash(powershell -Command \"New-Item -ItemType Directory -Force -Path 'C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public' | Out-Null; Copy-Item 'C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\public\\\\Fizzog.png' 'C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\\\\Fizzog.png' -Force; Write-Output 'Done'\")",
+      "Bash(powershell -Command \"Get-ChildItem -Path 'C:\\\\Users\\\\Personel\\\\Desktop\\\\fizzog-mobile' -Recurse -Include '*.tsx','*.ts' -Exclude 'node_modules' | Where-Object { $_.FullName -notmatch 'node_modules' } | Select-Object -ExpandProperty FullName\")"
     ]
   }
 }

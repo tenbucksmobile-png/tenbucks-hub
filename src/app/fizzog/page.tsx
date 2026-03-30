@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Info, LifeBuoy, Apple, PlayCircle } from "lucide-react";
+import { Info, LifeBuoy, Apple, PlayCircle, Scale } from "lucide-react";
 import BackButton from "@/components/BackButton";
 
 const sections = [
@@ -16,6 +16,13 @@ const sections = [
     desc: "FAQs & help",
     href: "/fizzog/support",
     icon: LifeBuoy,
+    external: false,
+  },
+  {
+    label: "Legal",
+    desc: "Privacy Policy, Terms & Data Safety",
+    href: "/fizzog/legal",
+    icon: Scale,
     external: false,
   },
   {
