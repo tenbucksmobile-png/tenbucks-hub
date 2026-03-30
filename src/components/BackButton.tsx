@@ -7,12 +7,11 @@ export default function BackButton() {
   return (
     <button
       onClick={() => router.back()}
-      className="inline-flex items-center gap-2 text-sm text-white/40 hover:text-white transition-colors group"
+      className="fixed top-20 left-6 z-30 inline-flex items-center gap-2 text-sm text-white/40 hover:text-white transition-colors group"
     >
-      <span className="w-8 h-8 rounded-full border border-white/10 bg-white/5 group-hover:bg-white/15 flex items-center justify-center transition-colors">
-        <ArrowLeft size={15} />
+      <span className="w-9 h-9 rounded-full border border-white/10 bg-gray-950/80 backdrop-blur-sm group-hover:bg-white/15 flex items-center justify-center transition-colors shadow-lg">
+        <ArrowLeft size={16} />
       </span>
-      Back
     </button>
   );
 }
