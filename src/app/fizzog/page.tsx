@@ -27,17 +27,19 @@ const sections = [
   },
   {
     label: "App Store",
-    desc: "Download on iOS",
+    desc: "Coming soon",
     href: "https://apps.apple.com",
     icon: Apple,
     external: true,
+    disabled: true,
   },
   {
     label: "Google Play",
-    desc: "Download on Android",
+    desc: "Coming soon",
     href: "https://play.google.com",
     icon: PlayCircle,
     external: true,
+    disabled: true,
   },
 ];
 
@@ -67,7 +69,7 @@ export default function FizzogPage() {
         {sections.map((item) => {
           const Icon = item.icon;
           const inner = (
-            <div className="group flex items-center gap-4 px-5 py-4 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition cursor-pointer">
+            <div className={`group flex items-center gap-4 px-5 py-4 rounded-2xl border border-white/10 bg-white/5 transition ${item.disabled ? "opacity-40 cursor-not-allowed" : "hover:bg-white/10 cursor-pointer"}`}>
               <div className="w-10 h-10 rounded-xl bg-blue-600/20 flex items-center justify-center flex-shrink-0">
                 <Icon size={20} className="text-blue-400" />
               </div>
@@ -78,6 +80,7 @@ export default function FizzogPage() {
             </div>
           );
 
+          if (item.disabled) return <div key={item.label}>{inner}</div>;
           return item.external ? (
             <a key={item.label} href={item.href} target="_blank" rel="noopener noreferrer">
               {inner}
