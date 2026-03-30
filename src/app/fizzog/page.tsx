@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Info, LifeBuoy, Apple, PlayCircle } from "lucide-react";
+import BackButton from "@/components/BackButton";
 
 const sections = [
   {
@@ -36,9 +37,7 @@ const sections = [
 export default function FizzogPage() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-16">
-      <Link href="/" className="text-sm text-white/40 hover:text-white mb-8 inline-block">
-        ← Back
-      </Link>
+      <BackButton />
 
       {/* Header with logo */}
       <div className="flex items-center gap-5 mb-6">
@@ -47,7 +46,7 @@ export default function FizzogPage() {
         </div>
         <div>
           <h1 className="text-3xl font-bold">Fizzog</h1>
-          <p className="text-white/50 mt-1">Connect. Pitch. Get Hired.</p>
+          <p className="text-white/50 mt-1">Be Discovered</p>
         </div>
       </div>
 

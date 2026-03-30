@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BackButton from "@/components/BackButton";
 
 const sections = [
   { label: "About", href: "/indabacares", desc: "About the app" },
@@ -9,9 +10,7 @@ const sections = [
 export default function IndabaCaresPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
-      <Link href="/" className="text-sm text-white/40 hover:text-white mb-8 inline-block">
-        ← Back
-      </Link>
+      <BackButton />
       <div className="flex items-center gap-4 mb-4">
         <div className="w-14 h-14 rounded-2xl bg-emerald-600 flex items-center justify-center text-2xl font-bold">
           I

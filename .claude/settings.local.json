@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next:*)",
+      "Bash(node_modules/.bin/next build:*)",
+      "Bash(cmd.exe /c \"node_modules\\\\.bin\\\\next build 2>&1\")",
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub && node_modules\\\\.bin\\\\next build\")",
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub && node_modules\\\\.bin\\\\next build 2>&1\")",
+      "Bash(cmd.exe /c \"dir C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\node_modules\\\\next\\\\dist /b 2>&1\")",
+      "Bash(cmd.exe /c \"dir C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\node_modules\\\\next /b\")",
+      "Bash(cmd.exe /c \"npm run build 2>&1\")",
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub && node_modules\\\\.bin\\\\tsc --noEmit 2>&1\")",
+      "Bash(cmd.exe /c \"dir C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\public /b\")",
+      "Bash(cmd.exe /c \"copy C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\public\\\\Fizzog.png C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\\\\Fizzog.png\" 2>&1)",
+      "Bash(cmd.exe /c \"mkdir C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public && copy C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\public\\\\Fizzog.png C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\\\\Fizzog.png\")",
+      "Bash(cmd.exe /c \"dir C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\")",
+      "Bash(powershell -Command \"New-Item -ItemType Directory -Force -Path 'C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public' | Out-Null; Copy-Item 'C:\\\\Users\\\\Personel\\\\Desktop\\\\tenbucks-hub\\\\public\\\\Fizzog.png' 'C:\\\\Users\\\\Personel\\\\Desktop\\\\admin-portal\\\\public\\\\Fizzog.png' -Force; Write-Output 'Done'\")"
+    ]
+  }
+}

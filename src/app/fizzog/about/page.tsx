@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Play, Star, Zap, Eye, Video, FileText, Search } from "lucide-react";
+import BackButton from "@/components/BackButton";
 
 function PhoneFrame({ src, alt }: { src: string; alt: string }) {
   return (
@@ -28,9 +29,7 @@ export default function FizzogAboutPage() {
 
       {/* ── NAV ── */}
       <div className="max-w-5xl mx-auto px-6 pt-8 pb-4">
-        <Link href="/fizzog" className="text-sm text-white/40 hover:text-white inline-flex items-center gap-1">
-          ← Back
-        </Link>
+        <BackButton />
       </div>
 
       {/* ── HERO ── */}

@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 const portals = [
   {
     name: "Fizzog",
-    description: "Job matching platform admin",
+    description: "Be Discovered",
     url: "https://admin-fizzog.tenbucks-mobile.co.za",
     logo: "/Fizzog.png",
     color: "bg-blue-600",

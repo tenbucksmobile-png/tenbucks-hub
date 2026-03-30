@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BackButton from "@/components/BackButton";
 
 const faqs = [
   {
@@ -26,9 +27,7 @@ const faqs = [
 export default function IndabaCaresSupportPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
-      <Link href="/indabacares" className="text-sm text-white/40 hover:text-white mb-8 inline-block">
-        ← IndabaCares
-      </Link>
+      <BackButton />
       <h1 className="text-3xl font-bold mb-2">Support</h1>
       <p className="text-white/50 mb-10">Frequently asked questions for IndabaCares.</p>
 

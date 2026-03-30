@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import BackButton from "@/components/BackButton";
 import Image from "next/image";
 import { useState } from "react";
 import {
@@ -267,9 +268,7 @@ export default function FizzogSupportPage() {
       <div className="relative border-b border-white/5 pb-16 pt-8">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-[#f5a623]/8 rounded-full blur-[80px] -z-0" />
         <div className="relative max-w-4xl mx-auto px-6">
-          <Link href="/fizzog" className="text-sm text-white/40 hover:text-white inline-block mb-8">
-            ← Fizzog
-          </Link>
+          <div className="mb-8"><BackButton /></div>
           <div className="flex items-center gap-4 mb-6">
             <div className="w-14 h-14 rounded-2xl overflow-hidden flex-shrink-0">
               <Image src="/Fizzog.png" alt="Fizzog" width={56} height={56} className="object-contain p-1 w-full h-full" />
