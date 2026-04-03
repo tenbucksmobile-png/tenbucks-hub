@@ -13,7 +13,7 @@ const portals = [
   {
     name: "IndabaCares",
     description: "Employee wellness platform admin",
-    url: "https://admin-indabacares.tenbucks-mobile.co.za",
+    url: "https://indabacares-admin.vercel.app",
     logo: "/IndabaCares.png",
     color: "bg-emerald-600",
   },
