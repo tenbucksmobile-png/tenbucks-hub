@@ -1,9 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LifeBuoy, Mail, Apple, PlayCircle, Scale } from "lucide-react";
+import { Info, LifeBuoy, Mail, Apple, PlayCircle, Scale } from "lucide-react";
 import BackButton from "@/components/BackButton";
 
 const sections = [
+  {
+    label: "About",
+    desc: "About the app",
+    href: "/indabacares/about",
+    icon: Info,
+    external: false,
+  },
   {
     label: "Support",
     desc: "FAQs & help",
