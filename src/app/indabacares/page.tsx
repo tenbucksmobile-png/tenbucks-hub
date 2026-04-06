@@ -5,6 +5,7 @@ const sections = [
   { label: "About", href: "/indabacares", desc: "About the app" },
   { label: "Support", href: "/indabacares/support", desc: "FAQs & help" },
   { label: "Contact", href: "/indabacares/contact", desc: "Get in touch" },
+  { label: "Legal", href: "/indabacares/legal", desc: "Policies & terms" },
 ];
 
 export default function IndabaCaresPage() {
