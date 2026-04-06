@@ -2,83 +2,110 @@ import BackButton from "@/components/BackButton";
 
 const sections = [
   {
-    title: "1. AGREEMENT TO TERMS",
-    body: `By accessing or using IndabaCares ("the App"), you agree to be bound by these Terms of Service. If you do not agree, do not use the App.
+    title: "1. INTRODUCTION",
+    body: `These Terms of Use ("Terms") govern access to and use of the Indaba Hospitality Group Employee Rewards & Recognition Application ("the App").
 
-These Terms govern your use of IndabaCares in your capacity as an employee of a hotel or hospitality property that has licensed the platform. Your employer has agreed to separate terms with Indaba Cares (Pty) Ltd.`,
-  },
-  {
-    title: "2. ELIGIBILITY",
-    body: "The App is available only to employees who have been registered in the system by their employer. You must be at least 18 years old to use the App. Your employer is responsible for ensuring that only eligible employees are registered.",
-  },
-  {
-    title: "3. YOUR ACCOUNT",
-    body: `• Your employee code and password are personal and must not be shared.
-• You are responsible for all activity that occurs under your account.
-• You must notify your HR administrator immediately if you suspect unauthorised access to your account.
-• You may not create an account on behalf of another person.`,
-  },
-  {
-    title: "4. ACCEPTABLE USE",
-    body: `You agree NOT to use the App to:
+The App is:
+• Owned by Indaba Hospitality Group ("the Company")
+• Managed and operated by Tenbucks-Mobile (PTY) Ltd ("Managing Agent")
+• Restricted exclusively to verified employees of Indaba Hospitality Group and its subsidiaries
 
-• Post recognition messages or chat content that is abusive, discriminatory, sexually explicit, threatening, or defamatory.
-• Harass, intimidate, or bully any colleague.
-• Misrepresent your identity or impersonate another employee.
-• Attempt to access another employee's account or data.
-• Interfere with the App's functionality or security systems.
-• Use the App for any unlawful purpose.
-• Upload content to which you do not have the right to grant us a licence.`,
+By accessing or using the App, you agree to be bound by these Terms. If you do not agree, you must immediately discontinue use.`,
   },
   {
-    title: "5. RECOGNITION & POINTS",
-    body: `• Points earned through recognition are a reward mechanism provided at your employer's discretion and have no cash value.
-• Your employer retains the right to modify, suspend, or terminate the points and rewards programme at any time.
-• Points cannot be transferred between employees, converted to cash, or used outside of the IndabaCares platform.
-• Fraudulent manipulation of points or recognition submissions may result in account suspension and disciplinary action.`,
+    title: "2. ELIGIBILITY AND ACCESS CONTROL",
+    content: [
+      {
+        subtitle: "2.1 Restricted Access",
+        body: "The App is a closed system, accessible only to current employees of Indaba Hospitality Group and employees of its subsidiaries and affiliated entities.",
+      },
+      {
+        subtitle: "2.2 Verification",
+        body: "Access is granted based on employee records, internal authentication systems, and employer-issued credentials. The Company reserves the right to approve, deny, or revoke access at any time.",
+      },
+      {
+        subtitle: "2.3 Termination of Access",
+        body: "Access will be terminated if employment ends, misuse is detected, or policy violations occur.",
+      },
+    ],
   },
   {
-    title: "6. REWARDS REDEMPTION",
-    body: `• Reward availability is subject to stock and your employer's budget.
-• All redemptions are subject to approval by your employer's administration team.
-• Your employer is responsible for fulfilling approved redemptions. Indaba Cares (Pty) Ltd is not responsible for reward fulfilment.
-• Approved and fulfilled redemptions cannot be reversed except at the sole discretion of your employer.`,
-  },
-  {
-    title: "7. CONTENT YOU POST",
-    body: `You retain ownership of content you submit (recognition messages, chat messages, profile photos). By posting content, you grant Indaba Cares (Pty) Ltd and your employer a non-exclusive, royalty-free licence to display that content within the platform.
+    title: "3. PURPOSE OF THE APPLICATION",
+    body: `The App provides:
 
-You are solely responsible for the content you post. We may remove any content that violates these Terms or applicable law.`,
+• Employee reward allocation
+• Recognition programs
+• Incentive tracking
+• Internal engagement features
+
+The App is strictly for internal corporate use.`,
   },
   {
-    title: "8. INTELLECTUAL PROPERTY",
-    body: "The App, its design, logos, and software are owned by or licenced to Indaba Cares (Pty) Ltd. Nothing in these Terms grants you ownership of any intellectual property rights in the App.",
+    title: "4. USER RESPONSIBILITIES",
+    body: `You agree to:
+
+• Use the App lawfully and in good faith
+• Maintain confidentiality of login credentials
+• Not share access with unauthorized users
+• Not manipulate or exploit reward systems
+
+You may not:
+
+• Reverse engineer the App
+• Attempt unauthorized access
+• Interfere with system security
+• Use the App for fraudulent purposes`,
   },
   {
-    title: "9. AVAILABILITY",
-    body: "We aim to keep the App available at all times but do not guarantee uninterrupted access. We may suspend, modify, or discontinue the App or any features at any time with or without notice.",
+    title: "5. REWARDS AND INCENTIVES",
+    content: [
+      {
+        subtitle: "5.1 Nature of Rewards",
+        body: "Rewards are discretionary, have no cash equivalence unless explicitly stated, and are subject to internal policies.",
+      },
+      {
+        subtitle: "5.2 Modification",
+        body: "The Company reserves the right to change reward structures, adjust point allocations, and withdraw or replace incentives.",
+      },
+      {
+        subtitle: "5.3 No Guarantee",
+        body: "Participation does not guarantee rewards or continued availability of programs.",
+      },
+    ],
   },
   {
-    title: "10. LIMITATION OF LIABILITY",
-    body: "To the maximum extent permitted by law, Indaba Cares (Pty) Ltd is not liable for any indirect, incidental, special, or consequential damages arising from your use of the App, including lost points, unavailable rewards, or data loss.",
+    title: "6. INTELLECTUAL PROPERTY",
+    body: "All content within the App — including software, branding, design, and data — is owned by Indaba Hospitality Group and/or Tenbucks-Mobile (PTY) Ltd. Unauthorized use is strictly prohibited.",
   },
   {
-    title: "11. ACCOUNT TERMINATION",
-    body: "Your access to the App is tied to your employment. Your employer may deactivate your account at any time, including upon termination of your employment. You may request deletion of your account and personal data at any time via Settings → Delete Account.",
+    title: "7. DATA USAGE AND PRIVACY",
+    body: "Use of the App is subject to the Privacy Policy, in compliance with the Protection of Personal Information Act (POPIA) and the Electronic Communications and Transactions Act (ECTA).",
   },
   {
-    title: "12. CHANGES TO THESE TERMS",
-    body: "We may update these Terms from time to time. Significant changes will be communicated via an in-app notification. Continued use of the App after the updated Terms take effect constitutes your acceptance.",
+    title: "8. DISCLAIMERS",
+    body: `The App is provided "as is":
+
+• No warranties of uninterrupted service
+• No guarantee of accuracy of all content
+• Subject to system downtime and maintenance`,
   },
   {
-    title: "13. GOVERNING LAW & JURISDICTION",
-    body: "These Terms are governed by the laws of the Republic of South Africa. Any disputes will be subject to the jurisdiction of the South African courts.",
+    title: "9. LIMITATION OF LIABILITY",
+    body: "To the fullest extent permitted by law, the Company and Managing Agent are not liable for indirect or consequential damages, loss of rewards due to technical issues, or unauthorized access due to user negligence.",
   },
   {
-    title: "14. COMPANY & CONTACT DETAILS",
-    body: `Indaba Cares (Pty) Ltd
-Republic of South Africa
-legal@indabacares.com`,
+    title: "10. TERMINATION",
+    body: "The Company may suspend or terminate access without prior notice, for operational, legal, or disciplinary reasons.",
+  },
+  {
+    title: "11. GOVERNING LAW",
+    body: "These Terms are governed by the laws of the Republic of South Africa. Disputes will be subject to South African courts.",
+  },
+  {
+    title: "12. CONTACT DETAILS",
+    body: `Managing Agent:
+Tenbucks-Mobile (PTY) Ltd
+Email: support@tenbucks-mobile.co.za`,
   },
 ];
 
@@ -89,30 +116,37 @@ export default function IndabaCaresTermsPage() {
 
       <div className="mt-8 mb-10 text-center">
         <p className="text-[#a78bfa] font-bold text-sm tracking-widest uppercase mb-2">IndabaCares</p>
-        <h1 className="text-3xl font-bold mb-2">Terms of Service</h1>
-        <p className="text-white/40 text-sm">
-          Terms &amp; Conditions · Usage Policy
-        </p>
-        <p className="text-white/30 text-xs mt-1">
-          Owner &amp; Operator: Indaba Cares (Pty) Ltd · Republic of South Africa
-        </p>
+        <h1 className="text-3xl font-bold mb-2">Terms of Use</h1>
+        <p className="text-white/40 text-sm">Indaba Hospitality Group · Employee Rewards & Recognition Application</p>
+        <p className="text-white/30 text-xs mt-1">Managed by Tenbucks-Mobile (PTY) Ltd · Republic of South Africa</p>
       </div>
 
       <div className="flex flex-col gap-8">
         {sections.map((s) => (
           <div key={s.title} className="border-b border-white/5 pb-8 last:border-0">
             <h2 className="text-[#a78bfa] font-bold text-sm mb-3">{s.title}</h2>
-            <p className="text-white/55 text-sm leading-relaxed whitespace-pre-line">{s.body}</p>
+            {"content" in s && s.content ? (
+              <div className="flex flex-col gap-4">
+                {s.content.map((sub) => (
+                  <div key={sub.subtitle}>
+                    <p className="text-white font-semibold text-sm mb-1">{sub.subtitle}</p>
+                    <p className="text-white/55 text-sm leading-relaxed">{sub.body}</p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-white/55 text-sm leading-relaxed whitespace-pre-line">{s.body}</p>
+            )}
           </div>
         ))}
       </div>
 
       <div className="mt-12 p-5 rounded-2xl border border-white/10 bg-white/5 text-center">
         <p className="text-white/40 text-xs">
-          © {new Date().getFullYear()} Indaba Cares (Pty) Ltd · Republic of South Africa
+          © {new Date().getFullYear()} Indaba Hospitality Group · Managed by Tenbucks-Mobile (PTY) Ltd
           <br />
-          <a href="mailto:legal@indabacares.com" className="text-[#a78bfa] hover:underline">
-            legal@indabacares.com
+          <a href="mailto:support@tenbucks-mobile.co.za" className="text-[#a78bfa] hover:underline">
+            support@tenbucks-mobile.co.za
           </a>
         </p>
       </div>
