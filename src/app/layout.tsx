@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={spaceGrotesk.variable}>
       <body className={`${geist.className} bg-gray-950 text-white min-h-screen`}>
         <NavBar />
-        <main>{children}</main>
+        <main className="pt-20">{children}</main>
       </body>
     </html>
   );
