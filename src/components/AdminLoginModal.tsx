@@ -11,13 +11,6 @@ const portals = [
     color: "bg-blue-600",
   },
   {
-    name: "IndabaCares",
-    description: "Employee wellness platform admin",
-    url: "https://indabacares-admin.vercel.app",
-    logo: "/IndabaCares.png",
-    color: "bg-emerald-600",
-  },
-  {
     name: "MaisonClaudia",
     description: "Coming soon",
     url: "#",
